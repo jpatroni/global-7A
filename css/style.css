@@ -1,0 +1,40 @@
+/*etiquetas*/
+form { 
+margin: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+align-items: flex-start;
+flex-direction: column;
+display: flex;
+}
+label {
+    margin-bottom: 5px;
+}
+input,select { padding: 5px;
+    margin-bottom: 10px; 
+
+    border-radius: 5px;
+    border: solid 1px #1ab9b1
+    ;
+}
+
+select
+{ width: 10% ;
+
+}
+button {
+    padding: 5px;
+    border-radius:5px ;
+    cursor : pointer
+
+}
+#cancelar {background-color: rgb(226, 43, 43);
+color: antiquewhite;
+}
+#guardar { background-color: rgb(18, 18, 218);
+color: aliceblue;}
+#cancelar:hover { background-color: rgb(126, 11, 11)
+
+}
+#guardar:hover { background-color: rgb(6, 6, 63) ;
+
+}
