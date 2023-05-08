@@ -1,0 +1,40 @@
+body{ 
+    background-color: blueviolet;
+}
+.container { 
+    display: flex;
+    height: 100vh;
+    align-items: center;
+justify-content: center;
+
+}
+table {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid rgb(71, 71, 71); 
+    background-color: rgb(153, 233, 34);
+    border-collapse: collapse ;
+}
+
+th { 
+    border: 1px solid #050505 ;
+    background-color: rgb(198, 240, 119);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+}
+
+td { 
+    border: 1px solid black ;
+    background-color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 4px;
+
+}
+
+img{
+width:  50%;
+aspect-ratio: 7/6 ;
+object-fit: contain;
+
+}
