@@ -1,39 +1,78 @@
-body{ 
+
+* { text-align: center;}
+
+body { margin: auto;}
+
+
+header {
+    background-color: aqua;
+padding-top: 1px;
+
+}
+nav { margin: 0px;
     background-color: blueviolet;
+    padding: 0px;
+
 }
-.container { 
+
+nav li{
+    padding: 0px;
+    margin: 0px;
+}
+
+ nav a:hover {
+    
+    color: antiquewhite;
+ }
+nav ul {
+    list-style: none;
+    flex-direction: row;
     display: flex;
-    height: 100vh;
-    align-items: center;
-justify-content: center;
-
-}
-table {
-    width: 100%;
-    max-width: 600px;
-    border: 2px solid rgb(71, 71, 71); 
-    background-color: rgb(153, 233, 34);
-    border-collapse: collapse ;
+    justify-content: space-around; /* misma espacio entre los dos elementyos */
+flex-wrap: wrap;
 }
 
-th { 
-    border: 1px solid #050505 ;
-    background-color: rgb(198, 240, 119);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 5px;
-}
-
-td { 
-    border: 1px solid black ;
-    background-color: azure;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    padding: 4px;
+nav a { 
+    text-decoration: none;
+    display: block;
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+font-size:xx-large ;
 
 }
 
-img{
-width:  50%;
-aspect-ratio: 7/6 ;
-object-fit: contain;
+main { background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
 }
+section {
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+    min-height: 300px;
+
+
+}
+
+article {
+    background-color: violet;
+    margin: 10px;
+    padding: 10px;
+    min-height: 150px;
+
+}
+
+aside { 
+    background-color: olivedrab;
+margin: 10px;
+padding: 10px;
+max-width: 200px;
+min-height: 300px;
+}
+footer {
+    padding: 10px;
+    background-color: aqua;}
